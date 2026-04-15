@@ -139,15 +139,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# cloudinary
-import cloudinary
-import cloudinary.uploader
-import cloudinary.api
 
-CLOUDINARY_STORAGE = {
-    'CLOUD_NAME': 'drqnwo8pn',
-    'API_KEY': '885498624696747',
-    'API_SECRET': 'pKsO500DeCQFk2MAJNFJJxh3xUA',
-}
-
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
